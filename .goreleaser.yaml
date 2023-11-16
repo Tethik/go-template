@@ -54,8 +54,5 @@ changelog:
       - "^test:"
 
 release:
-  github:
-    owner: Tethik
-    name: go-template
   prerelease: auto
   name_template: "{{ .Tag }}"
