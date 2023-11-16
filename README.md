@@ -7,7 +7,7 @@ My own minimalist template for setting up a new Go project.
 - [] Besides the standard go tooling, ensure you have [goreleaser](https://goreleaser.com/) and `make` installed
 - [] Copy the template (e.g. via github)
 - [] Modify default code. Find and replace `github.com/Tethik/go-template`. Rename `example`.
-- [] Modify `main: ./cmd/example/example.go` in `.goreleaser.yaml`
+- [] Modify `main: ./cmd/example/example.go` and `binary: app` in `.goreleaser.yaml`
 
 ### Github release workflow
 

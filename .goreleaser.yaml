@@ -26,7 +26,9 @@ builds:
       - amd64
       - arm
       - arm64
+    # main entrypoint of the app
     main: ./cmd/example/example.go
+    # the name of the binary
     binary: example
     ldflags:
       - -s -w -X main.version={{.Version}} -X main.commit={{.ShortCommit}} -X main.date={{.Date}}
