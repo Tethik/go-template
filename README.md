@@ -15,7 +15,8 @@ Ensure you set `Actions -> Workflow permissions` to `Read and write permissions`
 
 ## Usage 🧑‍💻
 
-- `make build` - to build locally
+- `make` or `make single-build` - build for just your arch. Outputs in `dist/`.
+- `make build` - to build for all archs
 - `make test` - to run tests
 
 ### Releases
@@ -29,7 +30,7 @@ git push origin vX.Y.Z
 
 Alternatively you can a manual release via make (not tested tbh)
 
-`make manual-release`
+`make release`
 
 ### References 📜
 
