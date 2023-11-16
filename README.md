@@ -18,3 +18,7 @@ release:
     name: go-template
 
 ```
+
+### Github release workflow
+
+Ensure you set `Actions -> Workflow permissions` to `Read and write permissions`
