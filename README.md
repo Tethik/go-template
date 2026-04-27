@@ -11,7 +11,7 @@ My own minimalist template for setting up a new Go project.
 
 ### Github release workflow
 
-Ensure you set `Actions -> Workflow permissions` to `Read and write permissions`
+The workflow now explicitly sets `contents: write` permission, so no additional configuration is needed.
 
 ## Usage 🧑‍💻
 
